@@ -1,2 +1,2 @@
-# sprint2website
-website for sprint 2
+# Sprint 2 website
+Website for Sprint 2
