@@ -1,32 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+   <meta charset="utf-8"/>
     <title>Sports5</title>
+		<meta name="description" content="Website for joining sports clubs.">
 </head>
 
 <body>
-    <div>
-        <img src="img/sports5.png" height="70" width="270">
-    </div>
+    <section>
+	   <a href="index.html">
+        <img src="img/sports5.png" alt="Website Logo" height="70" width="270">
+	   </a>
+    </section>
     <hr>
-    <nav><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Book Online</a></nav>
+       <nav>
+        <a href="index.html">Home</a> | <a href="About.html">About</a> | <a href="signUp.html">Sign Up</a> | <a href="News.html">News</a>
+	    | <a href="activity.html">Activity</a> | <a href="Shop.html">Shop</a> | <a href="indexhtml4.html">Indexdemo</a>	   
+	   </nav>
+	<hr>
+	<section>
+     <img src="img/ad.png" alt="Advertisement">
+    </section>
+    <h1>SIGN UP</h1>
+    <section>
+        <img src="img/signup.png" alt="Sign up image" width="525" height="400">
+    </section>
+	<article>
+	   <h3>Sign Up Form</h3>
+	    <form action="/action.php" method="post">
+		<fieldset>
+		 <legend>Create Account</legend>
+		 <section>
+		  <label for="name"><b>First Name:</b></label>
+		  <input type="text" id="name" placeholder="Enter First Name" value="">
+		 </section>
+		 
+		 <section>
+		  <label for="lastname"><b>Last Name:</b></label>
+		  <input type="text" id="lastname" placeholder="Enter last Name" value="">
+		 </section>
+		 
+		 <section>
+		  <label for="email"><b>Email Address:</b></label>
+		  <input type="email" id="email" placeholder="Enter Email Address" value="">
+		 </section>
+		 
+		 <section>
+		  <label for="password"><b>Password:</b></label>		 
+ 		  <input type="password" id="password" placeholder="Password" value="">
+		  <p>By creating an account you agree to our <a href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">Terms & Privacy.</a></p>
+         </section>
+		 
+		 <section>
+		  <button type="button">Cancel</button>		  
+		  <button type="button">Sign Up</button>
+		 </section>
+		</fieldset>
+        </form>		
+	</article>
     <hr>
-<br>
-<div style=text-align:center;>
-<img src="img/ad.png">
-</div>
-<br>
-<form>
-   <input name="First name" type="text">
-<br><br>
-   <input name="Surname" type="text>
-<br><br>
-   <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other<br>
-</form>
-
-    <footer><p style=text-align:center;><b>© Sports5, 2017.</b> Made by Group E1</p></footer>
+    <footer><p><b>Â© Sports5, 2017.</b> Made by Group E1</p></footer>
                                      
                                  
 </body>
