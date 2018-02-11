@@ -1,2 +1,2 @@
-# Sprint 2 website
-Website for Sprint 2
+# Sprint 3 CSS
+CSS for Sprint 2
