@@ -1,1 +1,43 @@
-// no CSS needed
+body {
+    background-color: black;
+}
+a {
+    color:white;
+}
+.ad {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align:center;
+}
+p, h1, h2, h3, .intro {
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.navbar {
+    font-family: 'Merriweather', serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-top: 5px solid #C5AE87;
+    border-bottom: 5px solid #C5AE87;
+    border-color: #C5AE87;
+    border-width: 2px;
+}
+.gameInfo {
+    padding-top 2%;
+    padding-bottom: 2%;
+}
+.foot {
+    border-top: 5px solid #C5AE87;
+}
+.bestSports {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 2.5%; 
+}
+.mainImage {
+    text-align:center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%; 
+}
